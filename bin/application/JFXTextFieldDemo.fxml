@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.TextFieldController">
+   <children>
+   <AnchorPane prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+         <children>
+            <JFXTextField fx:id="txtUname" labelFloat="true" layoutX="26.0" layoutY="72.0" prefHeight="25.0" prefWidth="347.0" promptText="Enter Your User Name" />
+            <JFXTextField fx:id="txtPassword" labelFloat="true" layoutX="25.0" layoutY="130.0" prefHeight="25.0" prefWidth="347.0" promptText="Enter Your Password" />
+            <Label layoutX="168.0" layoutY="14.0" text="LOGIN">
+               <font>
+                  <Font name="System Bold" size="20.0" />
+               </font>
+            </Label>
+            <JFXButton fx:id="btnSignin" buttonType="RAISED" layoutX="279.0" layoutY="200.0" onAction="#btnClicked" text="LOGIN" />
+         </children>
+   </AnchorPane>
+   </children>
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+</GridPane>

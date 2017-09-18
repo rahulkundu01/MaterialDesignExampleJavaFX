@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.GridPane?>
+
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SliderController">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane fx:id="background" prefHeight="350.0" prefWidth="500.0">
+         <children>
+            <Pane layoutX="-2.0" layoutY="6.0" prefHeight="133.0" prefWidth="500.0">
+               <children>
+                  <JFXSlider fx:id="red" layoutX="8.0" layoutY="24.0" majorTickUnit="30.0" max="255.0" minorTickCount="2" prefHeight="14.0" prefWidth="484.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+                  <JFXSlider fx:id="green" layoutX="8.0" layoutY="60.0" majorTickUnit="30.0" max="255.0" minorTickCount="2" prefHeight="14.0" prefWidth="484.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+                  <JFXSlider fx:id="blue" layoutX="8.0" layoutY="105.0" majorTickUnit="30.0" max="255.0" minorTickCount="2" prefHeight="14.0" prefWidth="484.0" showTickLabels="true" showTickMarks="true" value="1.0" />
+               </children>
+            </Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

@@ -1,0 +1,9 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.jfx-hamburger StackPane{
+-fx-background-color: #7b0101;
+-fx-pref-width: 40px;
+-fx-pref-height: 10px;
+
+
+}
